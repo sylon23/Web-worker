@@ -1,0 +1,10 @@
+1. Multi-tasking is the ability of an operating system to allow multiple programs or processes  run at the same time. E.g Using Photoshop and MS Word application at the same time.
+
+2. While multitasking allows more than one program/ processes run concurrently, multi-threading is the ability of a single program to run individual sub processes or threads (the smallest unit of operation that can be performed in an OS) at the same time. E.g watching a video and downloading it at the same time.
+
+3. Anonymous functions are functions that do not have names.. They are created using the function operator and are declared at runtime (unlike functions created with function declarations that are hoisted).
+
+4. An asynchronous function is a function that accepts a callback function as parameter which is called after the completion of a task, 
+
+5. A web worker is a javascript script that can run background operations (usually CPU intensive operations) on a seperate thread different from the main execution thread of a web application.The worker instantiates a separate message queue, event loop, and memory space independent from the original thread This prevents the main thread (usually the UI) thread from being blocked or slowed.
+

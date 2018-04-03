@@ -1,0 +1,24 @@
+
+<!-- This simple game allow users the opporunity to match two random numbers for a chance to win. -->
+<!-- The random selection of the two integers between 1 and 10 is handled outside the main script by a webworker(luckyworker.js) -->
+<!-- selected numbers are sent back to the main script through a worker object that communicates with the web worker -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple web worker</title>
+</head>
+<body>
+    <p>Create a lucky match to win exciting prizes. Click the button below to get a lucky number</p>
+    <button id="playbutton">Lucky number</button>
+    <p >Your lucky number is: <output id="result"></output> </p>
+    <p >The winning number is: <output id="result1"></output> </p>
+    <p id="finalresult"></p>
+
+    <script src="js/main.js"></script>
+       
+</body>
+</html>
